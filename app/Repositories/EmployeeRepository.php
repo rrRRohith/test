@@ -33,6 +33,7 @@ class EmployeeRepository implements EmployeeRepositoryInterface
      * Remove the specified resource from storage.
      */
     public function destroy(Employee $employee){
-        return $employee->delete();
+        $employee->delete();
+        return true;
     }
 }

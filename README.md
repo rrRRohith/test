@@ -1,7 +1,7 @@
 
 # Test application
 
-Instantly find charging stations nearby
+Manage companes and employees
 
 ## Environment Variables
 

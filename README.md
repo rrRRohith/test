@@ -22,8 +22,9 @@ Clone Test application
 Go to the project directory
 
 ```bash
-  cd ev
+  cd test
 ```
+Copy .env.example to .env
 
 Install dependencies
 

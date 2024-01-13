@@ -52,7 +52,7 @@ class Handler extends ExceptionHandler
     {
         return response()->json([
             'success' => false,
-            'message' => $e->getMessage() ? $e->getMessage() : __('messages.error')
+            'message' => $e->getMessage() ? $e->getMessage() : __('Something went wrong, please try again later')
         ],
         method_exists($e, 'getStatusCode') ? $e->getStatusCode() : 400);
     }

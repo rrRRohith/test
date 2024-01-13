@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+:root{
+    --bs-border-width: 2px;
+}
+.company-logo{
+    width: 160px !important;
+    height: 160px;
+    object-fit: cover !important;
+}
+.border-dotted {
+    border-style: dotted !important;
+}

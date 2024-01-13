@@ -42,6 +42,7 @@ class CompanyRepository implements CompanyRepositoryInterface
      * Remove the specified resource from storage.
      */
     public function destroy(Company $company){
-        return $company->delete();
+        $company->delete();
+        return true;
     }
 }

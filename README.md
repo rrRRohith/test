@@ -1,7 +1,7 @@
 
 # Test application
 
-Manage companes and employees
+Manage companies and employees
 
 ## Environment Variables
 
@@ -24,7 +24,7 @@ Go to the project directory
 ```bash
   cd test
 ```
-Copy .env.example to .env
+Copy .env.example to .env and configure environment variables.
 
 Install dependencies
 
